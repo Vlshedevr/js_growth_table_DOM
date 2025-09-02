@@ -50,6 +50,7 @@ function addRow() {
   }
 
   disBtnTr();
+  disBtnTd();
 }
 
 function deletRow() {
@@ -60,6 +61,7 @@ function deletRow() {
   }
 
   disBtnTr();
+  disBtnTd();
 }
 
 function addColumn() {
@@ -76,6 +78,7 @@ function addColumn() {
   }
 
   disBtnTd();
+  disBtnTr();
 }
 
 function deleteColumn() {
@@ -90,7 +93,11 @@ function deleteColumn() {
   }
 
   disBtnTd();
+  disBtnTr();
 }
+
+disBtnTd();
+disBtnTr();
 
 mainCon.addEventListener('click', (e) => {
   if (e.target === BtnAdAp) {
